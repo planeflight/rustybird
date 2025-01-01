@@ -35,7 +35,7 @@ pub fn render_texture(d: &mut RaylibDrawHandle, texture: &Texture2D, dest: &Rect
     );
 }
 
-pub fn read_file() -> String {
+fn read_file() -> String {
     let path = Path::new("./res/save.flappy");
 
     let mut file = match File::open(&path) {
