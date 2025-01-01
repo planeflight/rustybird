@@ -1,5 +1,4 @@
 mod entity;
-mod math;
 mod util;
 
 use std::rc::Rc;
